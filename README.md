@@ -15,6 +15,7 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    ```bash
    sudo ufw enable
    ```
+   
    📸 Screenshot:
    
    ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(1).png)
@@ -25,7 +26,8 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    ```bash
    sudo ufw status numbered
    ```
-   Output showed SSH (22/tcp) allowed and Telnet (23/tcp) denied.  
+   Output showed SSH (22/tcp) allowed and Telnet (23/tcp) denied.
+   
    📸 Screenshot:  
 
    ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(2).png)
@@ -36,6 +38,7 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    sudo ufw deny 23/tcp
    ```
    Confirmed with `sudo ufw status numbered`.
+   
     📸 Screenshot:  
 
    ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(3).png)
@@ -47,7 +50,8 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    telnet localhost 23
    nc -vz localhost 23
    ```
-   Both returned **Connection refused**.  
+   Both returned **Connection refused**.
+   
    📸 Screenshot:  
 
    ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(4).png)
@@ -59,6 +63,7 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    sudo ufw allow 22/tcp
    ```
    Verified in `ufw status`.
+   
    📸 Screenshot:  
 
    ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(5).png)
@@ -69,7 +74,8 @@ This project demonstrates how to configure and test firewall rules on **Kali Lin
    ```bash
    sudo ufw delete deny 23/tcp
    ```
-   Final rules allowed only SSH (22/tcp).  
+   Final rules allowed only SSH (22/tcp).
+    
    📸 Screenshot:
    
   ![image alt](https://github.com/Rushikesh38-bit/TASK-NO-4-Setup-and-Use-a-Firewall-on-Windows-Linux/blob/main/linux(6).png)
