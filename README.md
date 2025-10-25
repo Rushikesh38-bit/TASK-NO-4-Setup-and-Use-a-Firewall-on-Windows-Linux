@@ -101,7 +101,7 @@ By configuring firewall rules, we minimize exposure to attacks and ensure only a
 
 ## Windows 11:
 
-## 🧰 Tool: Windows Defender Firewall (GUI-based interface)
+ ## 🧰 Tool: Windows Defender Firewall (GUI-based interface)
 
 
 1. **Open Windows Firewall Settings:**
